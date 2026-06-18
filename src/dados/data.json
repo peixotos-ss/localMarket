@@ -1,22 +1,22 @@
 [
     {
         "id": 1,
-        "desc":"xingger",
-        "imagem": "../../public/",
-        "sal":10200.00
+        "desc":"Neymar Junior ",
+        "imagem": "../../public/ney.jpg",
+        "sal":102000000000000.00
 
     },
     {
-        "id": 1,
-        "desc":"fingger",
-        "imagem": "../../public/",
+        "id": 2,
+        "desc":"Viní Junior",
+        "imagem": "../../public/vini.png",
         "sal":2700.00
 
     },{
         "id": 3,
-        "desc":"bigger",
-        "imagem": "../../public/",
-        "sal":1020.00
+        "desc":"Alisson",
+        "imagem": "../../public/alisson.jpg",
+        "sal":2
 
     }
 ]

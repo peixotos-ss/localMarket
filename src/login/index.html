@@ -12,8 +12,26 @@
         <div class="round">
             <img class="logo" src="../../public/logo.png" alt="logo">
         </div>
+        <div class="wrap-input-label">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="insira seu Nome">
+        </div>
+        <div class="wrap-input-label">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="Insira sua senha">
+        </div>
+        <div onclick="showPassword()">
+            <img src="../../public/view.png" alt="" id="eye" class="eye" width="25px">
+        </div>
     </div>
-
+    <div>
+        <button class="btn-login" onclick="login()">login</button>
+    </div>
+    
+    <div class="error-div" id="error-modal">
+        <h3>credenciais incorretas</h3>
+        <button onclick="fecharError()">❌</button>
+    </div>
 
 
     <script src="script.js"></script>
