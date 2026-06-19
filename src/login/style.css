@@ -11,3 +11,6 @@
     border-radius: 75%;
     object-fit: cover; 
 }
+.errorDiv{
+    display: none;
+}

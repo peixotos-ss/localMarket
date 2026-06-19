@@ -3,20 +3,20 @@
         "id": 1,
         "desc":"Neymar Junior ",
         "imagem": "../../public/ney.jpg",
-        "sal":102000000000000.00
+        "valor":102000000000000.00
 
     },
     {
         "id": 2,
         "desc":"Viní Junior",
         "imagem": "../../public/vini.png",
-        "sal":2700.00
+        "valor":2700.00
 
     },{
         "id": 3,
         "desc":"Alisson",
         "imagem": "../../public/alisson.jpg",
-        "sal":2
+        "valor":2
 
     }
 ]
