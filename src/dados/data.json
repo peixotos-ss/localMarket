@@ -1,22 +1,30 @@
 [
     {
         "id": 1,
-        "desc":"Neymar Junior ",
+        "desc":"DEH-P9080BT",
         "imagem": "../../public/ney.jpg",
-        "valor":102000000000000.00
+        "valor":1500.00
 
     },
     {
         "id": 2,
-        "desc":"Viní Junior",
+        "desc":"DEH-8380SD",
         "imagem": "../../public/vini.png",
-        "valor":2700.00
+        "valor":1200.00
 
-    },{
+    },
+    {
         "id": 3,
-        "desc":"Alisson",
+        "desc":"DEH-P5180UB",
         "imagem": "../../public/alisson.jpg",
-        "valor":2
+        "valor":1700.00
+
+    },
+    {
+        "id": 4,
+        "desc":"DEH-P6980IB",
+        "imagem": "../../public/img4.jpg",
+        "valor":1700.00
 
     }
 ]

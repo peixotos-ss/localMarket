@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-4.0.0.js"
+        integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.0.1/mammoth.browser.min.js"></script>
+    </head>
+<body>
+    <a href="../Loja">Continuar comprando</a>
+    <h1>CARRINHO</h1>
+    
+    <div id="lista"></div>
+    <h3 id="total"></h3>
+
+    <button class="btn-word" onclick="gerar()">GERAR PEDIDO</button>
+
+    <p id="pedido">
+        Pedido gerado com sucesso!!!
+        <button id="sc" onclick="successClose()">❌</button>
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
