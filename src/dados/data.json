@@ -45,7 +45,28 @@
         "id": 7,
         "desc":"AVH-P5180DVD",
         "imagem": "../../public/img7.jpg",
-        "valor":2300.00
+        "valor":1200.00
+
+    },
+    {
+        "id": 8,
+        "desc":"TS-WX140DA",
+        "imagem": "../../public/img8.jpg",
+        "valor":2200.00
+
+    },
+    {
+        "id": 9,
+        "desc":"TS-A6998S",
+        "imagem": "../../public/img9.jpg",
+        "valor":900.00
+
+    },
+    {
+        "id": 10,
+        "desc":"GM-E7004",
+        "imagem": "../../public/img10.jpg",
+        "valor":1000.00
 
     }
     

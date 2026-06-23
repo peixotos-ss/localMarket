@@ -29,3 +29,10 @@ body{
     align-items: center;
     gap: 50px;
 }
+.low{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
