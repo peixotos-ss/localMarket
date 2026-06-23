@@ -26,5 +26,27 @@
         "imagem": "../../public/img4.jpg",
         "valor":1700.00
 
+    },
+    {
+        "id": 5,
+        "desc":"DEH-X3680UI",
+        "imagem": "../../public/img5.jpg",
+        "valor":1300.00
+
+    },
+    {
+        "id": 6,
+        "desc":"DMH-ZF8550TV",
+        "imagem": "../../public/img6.jpg",
+        "valor":2300.00
+
+    },
+     {
+        "id": 7,
+        "desc":"AVH-P5180DVD",
+        "imagem": "../../public/img7.jpg",
+        "valor":2300.00
+
     }
+    
 ]
