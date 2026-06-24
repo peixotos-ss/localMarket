@@ -20,20 +20,16 @@
         <div class="wrap-input-label">
             <label for="senha">Senha</label>
             <input type="password" id="senha" placeholder="Insira sua senha">
+            <img src="../../public/view.png" alt="" id="eye" class="eye" width="25px" onclick="showPassword()">
         </div>
-        <div onclick="showPassword()">
-            <img src="../../public/view.png" alt="" id="eye" class="eye" width="25px">
-        </div>
-    </div>
-    <div>
-        <button class="btn-login" onclick="login()">login</button>
-    </div>
-    
-    <div class="errorDiv" id="error-modal">
-        <h3>credenciais incorretas</h3>
-        <button onclick="fecharError()">❌</button>
-    </div>
 
+        <button class="btn-login" onclick="login()">login</button>
+
+        <div class="errorDiv" id="error-modal">
+            <h3>credenciais incorretas</h3>
+            <button onclick="fecharError()">❌</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>

@@ -137,5 +137,8 @@ input:focus{
     background-color: transparent;
     border: none;
     opacity: 0.7;
-    
+}
+.error-div button:hover{
+cursor: pointer;
+opacity: 1;
 }
