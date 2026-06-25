@@ -8,7 +8,7 @@ $(document).ready(function(){
         listElement.empty()
         let totalPreco = 0
         $.each(carrinho, function(index, item){
-            const listItem = $("<li>").text(`${item.desc} - Preço: $${item.valor.toFixed(2)}`)
+            const listItem = $("<li>").text(`R${item.desc} - Preço: R$${item.valor.toFixed(2)}`)
             const removeButton = $("<button>").text("✖️").css("margin-left", "10px").click(function(){
                 removerItem(index)
             })
@@ -17,7 +17,7 @@ $(document).ready(function(){
 
             totalPreco += item.valor
         })
-        totalElement.text(`Total: $${totalPreco.toFixed(2)}`)
+        totalElement.text(`Total: R$${totalPreco.toFixed(2)}`)
     }
 
     function removerItem(index){
